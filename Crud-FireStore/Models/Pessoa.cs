@@ -10,7 +10,9 @@ namespace Crud_FireStore.Models
     public class Pessoa
     {
         public string PessoaId { get; set; }
+        [FirestoreProperty]
         public string Nome { get; set; }
+        [FirestoreProperty]
         public string Idade { get; set; }
     }
 }
