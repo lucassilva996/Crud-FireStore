@@ -11,7 +11,7 @@ namespace Crud_FireStore.Controllers
 {
     public class PessoasController : Controller
     {
-        private string diretorio = "C:\\Users\\lucas\\Documents\\dev\\Crud-FireStore\\Crud-FireStore\\crud-firebase-b4f16-c89a4261d0f8.json";
+        private string diretorio = "..\\Crud-FireStore\\crud-firebase-b4f16-c89a4261d0f8.json";
         private string projetoId;
         private FirestoreDb _firestoreDb;
 
